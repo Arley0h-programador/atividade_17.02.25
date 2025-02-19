@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste definitivo</title>
     <link rel="stylesheet" href="style2.css">
+
+    <script>
+        function minhafuncaosegura(){
+            let h3lm = window.document.getElementById("subtitulo")
+            console.log(h3lm);
+        }
+    </script>
 </head>
 
 <script>
@@ -15,9 +22,13 @@
     }
 </script>
 
-<body>
+<body onload="minhafuncaosegura">
     <center><h1>Teste do Botão!</h1>
     <button type="button" onclick="namefunction()">Me Pressione!</button></center>
+    <h3 id="subtitulo">Aula de Revisão PWI e git github</h3>
+    <script>
+        console.log(minhafuncaosegura);
+    </script>
 </body>
 
 </html>
